@@ -28,5 +28,6 @@ myhyper=function(iter=100,N=20,r=12,n=5){
   barplot(succ.tab/(iter), col=rainbow(n+1), main="HYPERGEOMETRIC simulation", xlab="Number of successes")
   succ.tab/iter
 }
+myhyper(iter=100,N=20,r=5,n=5)
 
 
