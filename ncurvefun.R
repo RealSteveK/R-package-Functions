@@ -23,6 +23,6 @@ myncurve = function(mu, sigma, a ){
 
   list(A)
 }
-
+myncurve(mu = 3, sigma = 2, a = 2.5 )
 
 

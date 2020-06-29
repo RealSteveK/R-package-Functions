@@ -46,4 +46,4 @@ mypvalue=function(t0,xmax=4,n=20, alpha=0.05){
   return(list(q=q,pvalue=pv))
 }
 
-
+mypvalue(t0=3,xmax=4,n=20, alpha=0.05)

@@ -59,5 +59,7 @@ bootpval<-function(x,conf.level=0.95,iter=3000,mu0=0, test="two"){
   return(list(pvalue=pvalue,tcalc=tcalc,n=n,x=x,test=test,ci=ci))
 }
 
+x = c(1,2,3,4)
+bootpval(x,conf.level=0.95,iter=3000,mu0=0, test="two")
 
 
